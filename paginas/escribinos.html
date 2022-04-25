@@ -55,8 +55,43 @@
         </nav>
     </header>
 
-    <main>
-        
+    <main class="container">
+        <div class="row my-4 justify-content-center">
+            
+            <div class="col-xs-10 col-sm-8 col-lg-5 m-xs-3 text-center">
+                <h4>mail de contacto:</h4>
+                <p>vitromusica21@gmail.com</p>
+                <h4>teléfonos de contacto:</h4>
+                <p>📞  (011) 62139881 - Manu -</p>
+                <p>📞  (011) 59429768 - Lau - </p>
+            </div>
+
+            <div class="escribinos col-xs-10 col-sm-6 col-lg-4 m-xs-3 p-3">
+                <form action="">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input  class="form-control" ype="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input  class="form-control" ype="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (cod área)</label>
+                        <input  class="form-control" ype="number" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" name="mensaje" id="mensaje" rows="5"></textarea>
+                    </div>
+                    <div class="form-group text-center pt-4">
+                        <button class="btn btn-secondary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            
+
+        </div>
     </main>
 
     <footer>
@@ -79,7 +114,6 @@
 
         </div>
     </footer>
-</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -220,12 +220,42 @@ ul{
 
 .paraescuchar__p{
     font-size:small;
-
 }
 
-.paraescuchar__hijo2{
-    background-color: #D9C6BA;
+.paraescuchar__hijo1 h6{
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
 
+.paraescuchar__hijo2 h4{
+    text-align: center;
+    background-color: #8C6764;
+    font-style: italic;
+}
+
+.paraescuchar__hijo3 h4{
+    text-align: center;
+    background-color: #8C6764;
+    font-style: italic;
+}
+
+.vertiente__temas{
+    background-color: #ffffff;
+    border: 13px double #D9C6BA;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.tinte__temas{
+    background-color: #ffffff;
+    border: 13px double #D9C6BA;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.escribinos{
+    background-color:#D9C6BA;
+    border-radius: 5px;
+    border: 2px solid #8C6764 ;
+    box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.43);
 }
 
 /*------footer------*/
@@ -284,7 +314,7 @@ ul{
     .nav__contenedorLogo{
         height: 100%;
         width: auto;
-        padding: 15px;
+        
     }
 
     .nav__logo{
