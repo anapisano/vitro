@@ -44,42 +44,19 @@ ul{
 /*------version mobile------*/
 
 /*------barra navegadora------*/
-.nav{
-    background-color: #D9C6BA;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 1rem;
-    justify-content: space-between;
+.navbar__contenedorlogo{
+    height: 100px;
+}    
+
+.navbar__div{
+    padding: 0 25px 0 25px;
 }
-
-.nav__lista{
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    font-size: x-small;
-    padding: 10px 0 10px 0;
-    display: none;
+.navbar{
+    background-color: #D9C6BA !important;
 }
-
-.nav__enlace{
-    color: #8C6764;
-}
-
-.nav__contenedorLogo{
-    width: 50%;
-
-}
-
 .nav__logo{
-    width: 100%;
+    height: 100% !important;
 }
-
-.nav__buscador{
-    display: none;
-}
-
 
 /*------pagina inicio------*/
 
@@ -200,6 +177,7 @@ ul{
 
 .nosotros__hijo{
     display: flex;
+    overflow: hidden;
 }
 
 .nosotros__hijo--1{
@@ -341,7 +319,7 @@ ul{
 
 /*----- media querys ------*/
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 376px) {
     .nav{
         height: 100px;
         width: 100%;
@@ -422,26 +400,6 @@ ul{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .index__hijo--1{
-        grid-area: titulo;
-    }
-
-    .index__hijo--2{
-        grid-area: img;
-    }
-
-    .index__hijo--3{
-        grid-area: audio;
-    }
-
-    .index__hijo--4{
-        grid-area: parrafo;
-    }
-
-    .index__hijo--5{
-        grid-area: dibu;
     }
 
     /*----- nosotros -----*/
