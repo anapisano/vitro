@@ -33,14 +33,10 @@ p{
     color: #8C6764;
     font-family: 'Raleway', sans-serif;
 }
-
-a{
-    text-decoration: none;
-}
-
 ul{
     list-style: none;
 }
+
 /*------version mobile------*/
 
 /*------barra navegadora------*/
@@ -158,7 +154,6 @@ ul{
     }
 }
 
-
 /*------pagina nosotros------*/
 
 .nosotros{
@@ -203,7 +198,6 @@ ul{
 }
 
 
-
 .nosotros__img{
     width: 100%;
     height: auto;
@@ -237,6 +231,7 @@ ul{
     width: 80%;
     padding-bottom: 8px;
 }
+/*-----pagina para escuchar-----*/
 
 .paraescuchar__p{
     font-size:small;
@@ -260,15 +255,13 @@ ul{
 }
 
 .vertiente__temas{
-    background-color: #ffffff;
-    border: 13px double #D9C6BA;
-    border-radius: 40px 40px 40px 40px;
+    background-color: #648c76a8;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .tinte__temas{
-    background-color: #ffffff;
-    border: 13px double #D9C6BA;
-    border-radius: 40px 40px 40px 40px;
+    background-color: #648c76a8;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .escribinos{
@@ -316,56 +309,15 @@ ul{
     color: #1D181E;
 }
 
+.paratocar h2{
+        background-color:#648C76;
+}
+
+
 
 /*----- media querys ------*/
 
-@media screen and (min-width: 376px) {
-    .nav{
-        height: 100px;
-        width: 100%;
-        justify-content: space-around;
-        padding: 10px;
-    }
-
-    .nav__logo{
-        margin-top: 0;
-    }
-
-    .nav__contenedorLogo{
-        height: 100%;
-        width: auto;
-        
-    }
-
-    .nav__logo{
-        position:relative;
-        height: 100%;
-        width:auto;
-    }
-
-    .nav__lista{
-        font-size: 16px;
-        width: 45%;
-        display: flex;
-    }
-
-    .nav__buscador{
-        display: block;
-        width: auto;
-    }
-
-    .nav__buscador input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        margin-top: 8px;
-        margin-right: 16px;
-        font-size: 11x; 
-    }
-    
-    .nav__enlace:hover{
-        font-weight: 600;
-    }
+@media screen and (min-width: 426px) {
 
     /* index */
     .index__padre{
@@ -418,35 +370,15 @@ ul{
     justify-content: center;
     }
     
-    .nosotros__hijo--1{
-        grid-area: img2;
-    }
-    .nosotros__hijo--2{
-        grid-area: img1;
-    }
-    .nosotros__hijo--3{
-        grid-area: parrafo;
-    }
-    .nosotros__hijo--4{
-        grid-area: tarjeta1;
-        background-color: #D9C6BA;
-    }
-    .nosotros__hijo--5{
-        grid-area: tarjeta2;
-    }
-    .nosotros__hijo--6{
-        grid-area: tarjeta3;
-        background-color: #D9C6BA;
-    }
     .nosotros__hijo--7{
         grid-area: img3;
     }
 
     .nosotros__img{
-        width: 90%;
+        width: 100%;
         height: auto;
         object-fit: cover;
-        transition: all 2s;
+        transition: all 4s;
     }
     
     .nosotros__img:hover{
